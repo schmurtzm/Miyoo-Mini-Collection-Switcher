@@ -1,0 +1,13 @@
+{
+"label":" Collections ",
+"icon":"../../Icons/collections.png",
+"iconsel":"",
+"launch":"launch.sh",
+"rompath":"./COLLECTIONS",
+"imgpath":"./COLLECTIONS",
+"useswap":0,
+"shortname":1,
+"hidebios":0,
+"extlist":"json",
+"LastCollection":"main"
+}
