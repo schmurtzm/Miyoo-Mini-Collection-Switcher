@@ -16,14 +16,29 @@ https://user-images.githubusercontent.com/7110113/173586768-f6a9eba4-3d43-4a87-a
 
 ```
 /*  Release Notes (yyyy/mm/dd):                                                             */
-/*  V0.1 - 2022/06/14 :                                                                     */
+/*  v0.1 - 2022/06/14 :                                                                     */
 /*    - Initial release                                                                     */
+/*  v0.2 - 2022/06/16 :                                                                     */
+/*    - NEW: Possibility to create a new list directly from the Miyoo Mini                  */
+/*    - NEW: Once you select a collection it will go directly in the favorites list         */
+/*      (or in the console list of the collection is empty).                                */
+/*    - NEW: Added an option to sort the current collection alphabetically                  */
+/*    - FIX: Better management of list with spaces                                          */
 ```
 
  How to install :
  ----
  Click on the "code" button above -> "Download ZIP".
  Copy the content of SD_CARD folder on the root of your SD card
+ 
+ How to update (and keep all your current favorites lists):
+ ----
+ Select the "main" collection before making a backup of your favorites.
+ Backup your current favorite list : copy the folder SD_CARD\Emu\_COLLECTIONS\COLLECTIONS on your computer (it contains all the files .json which are your favorites lists)
+
+ Click on the "code" button above -> "Download ZIP".
+ Copy the content of SD_CARD folder on the root of your SD card (overwrite all the files)
+ Then restore your backup in SD_CARD\Emu\_COLLECTIONS\COLLECTIONS
 
 
  How to use :
