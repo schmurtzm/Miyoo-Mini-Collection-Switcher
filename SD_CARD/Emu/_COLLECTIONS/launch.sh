@@ -32,7 +32,15 @@ if [ "$CollecShortName" = "-Create New Collection" ]; then
 	CollecName="${CollecShortName}.json"
 	
 	echo "    We create the new collection file : \"${CollecName}\""
-	touch "${homedir}/COLLECTIONS/$CollecName"
+	# We add shortcuts towards the main menu and to the sort alphabetically script to the new collection created.
+	echo "{\"label\":\"  Return to Main Menu\",\"launch\":\"/mnt/SDCARD/Emu/_COLLECTIONS/launch.sh\",\"type\":5,\"rompath\":\"/mnt/SDCARD/Emu/_COLLECTIONS/COLLECTIONS/== Main ==.json\"}">"${homedir}/COLLECTIONS/$CollecName"
+	echo "{\"label\":\"  Sort current collection alphabetically\",\"launch\":\"/mnt/SDCARD/Emu/_COLLECTIONS/launch.sh\",\"type\":5,\"rompath\":\"/mnt/SDCARD/Emu/_COLLECTIONS/COLLECTIONS/-Sort current collection alphabetically.json\"}">>"${homedir}/COLLECTIONS/$CollecName"
+	# We add a shortcut towards the new collection in the main menu.
+	echo "{\"label\":\"${CollecShortName}\",\"launch\":\"/mnt/SDCARD/Emu/_COLLECTIONS/launch.sh\",\"type\":5,\"rompath\":\"/mnt/SDCARD/Emu/_COLLECTIONS/COLLECTIONS/${CollecName}\"}">>"/mnt/SDCARD/Roms/favourite.json"
+	
+	
+	# if you don't want the shortcut to main menu, just create an empty file :
+	#touch "${homedir}/COLLECTIONS/$CollecName"
 	
 	echo "    We delete the database to refresh the list of collections"
 	rm "${homedir}/COLLECTIONS/COLLECTIONS_cache2.db"
@@ -74,7 +82,6 @@ CurrentLang=$(grep '"language":*' /appconfigs/system.json |sed 's/"\|,//g' | awk
 # (grep select the line, sed remove quotes and comma, awk take the second part of the result) e.g  result : -> en.lang 
 
 echo ======================== Current language file : $CurrentLang    ========================
-
 echo "    We change the name of the favorite section in the Miyoo Mini / Onion UI"
 sed -i "/\"1\":/c \"1\": \"${CollecShortName}\"," "/mnt/SDCARD/miyoo/app/lang/$CurrentLang"
 
@@ -154,8 +161,11 @@ cp "${CurrentTheme}skin/ic-favorite-f_${MainMenuLogo}.png"   "${CurrentTheme}ski
 # ==========================================================================================
 
 myfilesize=$(wc -c "/mnt/SDCARD/Roms/favourite.json" | awk '{print $1}')
+echo "    Current file size of the collection : $myfilesize bytes."
+# With the shortcuts to the main menu and the sort script, the default size of a new collection is 372 bytes.
+# Change this number if you modify the defaults shortcuts above.
 
-if [ "$myfilesize" = "0" ]; then
+if [ "$myfilesize" = "372" ]; then
 	echo "    Collection is empty, go to Consoles menu , First console selected"
 	cp "$homedir/TOOLS/Menu_Navigation/Consoles_list.json" /tmp/state.json
 else

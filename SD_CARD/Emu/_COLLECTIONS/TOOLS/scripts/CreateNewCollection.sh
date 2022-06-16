@@ -4,6 +4,7 @@ homedir=`dirname "$0"`				#  /mnt/SDCARD/App/Terminal
 echo -ne "\n\n"
 echo  "========================================="
 echo  " Write a collection name and press start"
+echo  " (About 10 characters maximum)"
 echo  " (Let empty to cancel)"
 echo  "========================================="
 

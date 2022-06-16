@@ -1,3 +1,5 @@
+{"label":"  Return to Main Menu","launch":"/mnt/SDCARD/Emu/_COLLECTIONS/launch.sh","type":5,"rompath":"/mnt/SDCARD/Emu/_COLLECTIONS/COLLECTIONS/== Main ==.json"}
+{"label":"  Sort current collection alphabetically","launch":"/mnt/SDCARD/Emu/_COLLECTIONS/launch.sh","type":5,"rompath":"/mnt/SDCARD/Emu/_COLLECTIONS/COLLECTIONS/-Sort current collection alphabetically.json"}
 {"label":"OutRun (USA, Europe)","launch":"/mnt/SDCARD/Emu/MD/launch.sh","rompath":"/mnt/SDCARD/Emu/MD/../../Roms/MD/OutRun (USA, Europe).zip","type":5}
 {"label":"Road Rash II (USA, Europe) (RR206)","launch":"/mnt/SDCARD/Emu/MD/launch.sh","rompath":"/mnt/SDCARD/Emu/MD/../../Roms/MD/Road Rash II (USA, Europe) (RR206).md","type":5}
 {"label":"F-Zero (USA)","launch":"/mnt/SDCARD/Emu/SFC/launch.sh","rompath":"/mnt/SDCARD/Emu/SFC/../../Roms/SFC/F-Zero (USA).zip","type":5}

@@ -7,8 +7,8 @@
 "imgpath":"./COLLECTIONS",
 "useswap":0,
 "shortname":1,
-"hidebios":0,
+"hidebios":1,
 "extlist":"json",
-"LastCollection":"main",
+"LastCollection":"== Main ==",
 "CreatedCollection":""
 }

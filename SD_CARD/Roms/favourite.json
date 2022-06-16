@@ -1,0 +1,5 @@
+{"label":"  Create a new collection","launch":"/mnt/SDCARD/Emu/_COLLECTIONS/launch.sh","type":5,"rompath":"/mnt/SDCARD/Emu/_COLLECTIONS/COLLECTIONS/-Create New Collection.json"}
+{"label":"  Sort collections list alphabetically","launch":"/mnt/SDCARD/Emu/_COLLECTIONS/launch.sh","type":5,"rompath":"/mnt/SDCARD/Emu/_COLLECTIONS/COLLECTIONS/-Sort current collection alphabetically.json"}
+{"label":"platform","launch":"/mnt/SDCARD/Emu/_COLLECTIONS/launch.sh","type":5,"rompath":"/mnt/SDCARD/Emu/_COLLECTIONS/./COLLECTIONS/platform.json"}
+{"label":"shoot","launch":"/mnt/SDCARD/Emu/_COLLECTIONS/launch.sh","type":5,"rompath":"/mnt/SDCARD/Emu/_COLLECTIONS/./COLLECTIONS/shoot.json"}
+{"label":"race","launch":"/mnt/SDCARD/Emu/_COLLECTIONS/launch.sh","type":5,"rompath":"/mnt/SDCARD/Emu/_COLLECTIONS/./COLLECTIONS/race.json"}
