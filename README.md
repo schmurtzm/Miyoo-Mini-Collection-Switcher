@@ -3,13 +3,16 @@
   Miyoo Mini - Collection Switcher is a Bash scripting which allow to manage collections on [Onion OS](https://github.com/jimgraygit/Onion).
   
   
+  
 
 https://user-images.githubusercontent.com/7110113/173586768-f6a9eba4-3d43-4a87-a095-8534b251ad12.mp4
 
 
   
-  It allows to :
-- Let you choose your current collection.
+  Collections replace the original favorites menu of the Miyoo Mini with several advantages :
+- Choose your current collection.
+- Create a new collection
+- Sort the current collection alphabetically
 - Change the text of the "Favorites" section with the current collection name.
 - Change the picture logo of the "Favorites" section with the current collection name.
 
@@ -28,25 +31,29 @@ https://user-images.githubusercontent.com/7110113/173586768-f6a9eba4-3d43-4a87-a
 
  How to install :
  ----
+ 
  Click on the "code" button above -> "Download ZIP".
+ 
  Copy the content of SD_CARD folder on the root of your SD card
  
  How to update (and keep all your current favorites lists):
  ----
- Select the "main" collection before making a backup of your favorites.
- Backup your current favorite list : copy the folder SD_CARD\Emu\_COLLECTIONS\COLLECTIONS on your computer (it contains all the files .json which are your favorites lists)
+-  Select the "main" collection before making a backup of your favorites.
+ - Backup your current favorite list : copy the folder SD_CARD\Emu\_COLLECTIONS\COLLECTIONS on your computer 
+   
+   (it contains all the .json files which are your favorites lists)
 
- Click on the "code" button above -> "Download ZIP".
- Copy the content of SD_CARD folder on the root of your SD card (overwrite all the files)
- Then restore your backup in SD_CARD\Emu\_COLLECTIONS\COLLECTIONS
+ - Click on the "code" button above -> "Download ZIP".
+ - Copy the content of SD_CARD folder on the root of your SD card (overwrite all the files)
+ - Then restore your backup in SD_CARD\Emu\_COLLECTIONS\COLLECTIONS
 
 
  How to use :
  ----
- In the main menu of Onion go to Consoles section then select "Collections"
- Choose the Collection that you want to load
- Go back to the main menu, the "Favorites" menu has been renamed with your collection name.
- To add a game in this collection just add it as favorite in the classic way (click on the Menu button -> add as Favorite)
+ - In the main menu of Onion go to Consoles section then select "Collections"
+ - Choose the Collection that you want to load
+ - Go back to the main menu, the "Favorites" menu has been renamed with your collection name.
+ - To add a game in this collection just add it as favorite in the classic way (click on the Menu button -> add as Favorite)
  
 
  How to add your own collections :
