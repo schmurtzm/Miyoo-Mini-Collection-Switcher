@@ -2,10 +2,15 @@
  ----
   Miyoo Mini - Collection Switcher is a Bash scripting which allow to manage collections on [Onion OS](https://github.com/jimgraygit/Onion).
   
-  
-  
+ 
 
 https://user-images.githubusercontent.com/7110113/173586768-f6a9eba4-3d43-4a87-a095-8534b251ad12.mp4
+
+
+
+Since v0.3 :   New navigation between collections :
+
+  ![image by Olywa123](https://user-images.githubusercontent.com/7110113/174198841-65f6fe21-3d90-4c6c-b397-e5514fbd97d0.png)
 
 
   
