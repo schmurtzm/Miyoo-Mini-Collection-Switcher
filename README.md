@@ -163,6 +163,7 @@ Since v0.3 :   New navigation between collections :
   - I have created 12 collections logos for the theme "HippoStock" and "Default_Onion-DiMo". We could create all the logos for the [main games genres](https://en.wikipedia.org/wiki/List_of_video_game_genres) (and for all the themes).
   - A shortcut (key combo) to change the current collection whereever you are. It would require to create a new shortcut in onion (by compiling a new keymon) and create an alternative menu for the selection of the collection. ("Theme Switcher" is an open source app from Onion that could help may be).
   - A PC app to manage quickly the collections ?
+  - MainUI from Miyoo have a bug : if you add 2 times the same rom it will corrupt your favourite file. As this app is not open source we can't solve that.
  
  
  ## Thanks
