@@ -1,7 +1,7 @@
 # Miyoo Mini - Collection Switcher for Onion-OS
  ----
  
- Collection Switcher allows to manage multiple lists of favorites on [Onion OS](https://github.com/jimgraygit/Onion).
+ Collection Switcher allows to manage multiple lists of favorites on [Onion OS](https://github.com/OnionUI/Onion).
  
 
 
