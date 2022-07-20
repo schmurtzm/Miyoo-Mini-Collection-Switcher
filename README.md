@@ -1,6 +1,9 @@
 # Miyoo Mini - Collection Switcher for Onion-OS
  ----
-Collection Switcher allows to manage multiple lists of favorites on [Onion OS](https://github.com/jimgraygit/Onion).
+ 
+ Collection Switcher allows to manage multiple lists of favorites on [Onion OS](https://github.com/jimgraygit/Onion).
+ 
+ https://user-images.githubusercontent.com/7110113/179991981-880af422-1b15-4d05-a4de-ed8b3869aefa.mp4
 
   Collections replace the original favorites menu of the Miyoo Mini with several advantages :
 - Choose your current collection.
@@ -26,7 +29,7 @@ Coupled with [SearchFilter](https://github.com/OnionUI/SearchFilter) it becomes 
 ------------------------------------------------
 **Contents:**
 * [Download](#Download)
-* [Demo & How to use](#Demo-&-How-to-use)
+* [How to use](#How-to-use)
 * [Release Notes](#Release-Notes)
 * [How to install](#How-to-install)
 * [How to update (and keep all your current favorites lists)](#How-to-update-(and-keep-all-your-current-favorites-lists))
@@ -40,20 +43,13 @@ Coupled with [SearchFilter](https://github.com/OnionUI/SearchFilter) it becomes 
 
 [Download here](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fschmurtzm%2FMiyoo-Mini-Collection-Switcher%2Ftree%2Fmain%2FSD_CARD)
 
- Demo &  How to use
- ----
-
-https://user-images.githubusercontent.com/7110113/179991981-880af422-1b15-4d05-a4de-ed8b3869aefa.mp4
-
-Since v0.3 :   New navigation between collections :
-
-  ![image by Olywa123](https://user-images.githubusercontent.com/7110113/174198841-65f6fe21-3d90-4c6c-b397-e5514fbd97d0.png)
-------------------------------------------
-
 
 ## How to use
  ----
- 
+ Since v0.3 :   New navigation between collections :
+
+  ![image by Olywa123](https://user-images.githubusercontent.com/7110113/174198841-65f6fe21-3d90-4c6c-b397-e5514fbd97d0.png)
+------------------------------------------
  - Once installed go in your favorites and navigate between the different existing collections. Select the one you want to load and press A.
  - Add roms to your collection as usual : select a rom and press menu button -> add as faourite.
  - The navigation tree works like this : There a a main collection which contains all the sub collections :
