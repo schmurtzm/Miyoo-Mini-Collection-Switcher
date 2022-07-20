@@ -43,11 +43,7 @@ Coupled with [SearchFilter](https://github.com/OnionUI/SearchFilter) it becomes 
  Demo &  How to use
  ----
 
-
-
-https://user-images.githubusercontent.com/7110113/179991200-d8993c5e-1e1b-4684-83f6-7330ab26975b.mp4
-
-
+https://user-images.githubusercontent.com/7110113/179991981-880af422-1b15-4d05-a4de-ed8b3869aefa.mp4
 
 Since v0.3 :   New navigation between collections :
 
