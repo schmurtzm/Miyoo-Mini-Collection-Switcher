@@ -36,8 +36,8 @@ Coupled with [SearchFilter](https://github.com/OnionUI/SearchFilter) it becomes 
 * [How to use](#How-to-use)
 * [Release Notes](#Release-Notes)
 * [How to install](#How-to-install)
-* [How to update (and keep all your current favorites lists)](#How-to-update-(and-keep-all-your-current-favorites-lists))
-* [How to add your own collections](#Add-your-own-logo-in-the-collection)
+* [How to update (and keep all your current favorites lists)](#How-to-update)
+* [How to add your own collections](#How-to-add-your-own-collections)
 * [Improvements ideas](#Improvements-ideas)
 * [Thanks](#Thanks)
 
