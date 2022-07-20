@@ -3,7 +3,11 @@
  
  Collection Switcher allows to manage multiple lists of favorites on [Onion OS](https://github.com/jimgraygit/Onion).
  
- https://user-images.githubusercontent.com/7110113/179991981-880af422-1b15-4d05-a4de-ed8b3869aefa.mp4
+
+
+https://user-images.githubusercontent.com/7110113/179993898-c083449d-3b1e-4798-87b1-2c17cf93866e.mp4
+
+
 
   Collections replace the original favorites menu of the Miyoo Mini with several advantages :
 - Choose your current collection.
