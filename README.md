@@ -113,7 +113,7 @@ Coupled with [SearchFilter](https://github.com/OnionUI/SearchFilter) it becomes 
  - Copy the content of SD_CARD folder on the root of your SD card.
  - If you want to add your old favorites list, copy your favourite.json in SDCARD/Emu/_COLLECTIONS/COLLECTIONS/ , rename the file with a name that you like and then add it in favorite (when "==main==" collection is selected).
  
-## How to update (and keep all your current favorites lists):
+## How to update (and keep all your current favorites lists)
  ----
  
  - Select the "main" collection before making a backup of your favorites.
@@ -130,7 +130,7 @@ Coupled with [SearchFilter](https://github.com/OnionUI/SearchFilter) it becomes 
 
  
 
-## How to add your own collections :
+## How to add your own collections
  ----
  
  By default these collections are already created :
@@ -187,7 +187,7 @@ Coupled with [SearchFilter](https://github.com/OnionUI/SearchFilter) it becomes 
  
  
 
-## Improvements ideas :
+## Improvements ideas
  ----
   - I have created 12 collections logos for the theme "HippoStock" and "Default_Onion-DiMo". We could create all the logos for the [main games genres](https://en.wikipedia.org/wiki/List_of_video_game_genres) (and for all the themes).
   - A shortcut (key combo) to change the current collection whereever you are. It would require to create a new shortcut in onion (by compiling a new keymon) and create an alternative menu for the selection of the collection. ("Theme Switcher" is an open source app from Onion that could help may be).
