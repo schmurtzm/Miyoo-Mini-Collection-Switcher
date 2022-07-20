@@ -107,8 +107,8 @@ static unsigned char toggled[NUM_ROWS][NUM_KEYS];
 static int selected_i = 0, selected_j = 0;
 static int shifted = 0;
 static int location = 0;
-static int active = 1;
 static int mod_state = 0;
+int active = 1;
 int show_help = 1;
 
 void init_keyboard() {
@@ -116,7 +116,7 @@ void init_keyboard() {
 		for(int i = 0; i < NUM_KEYS; i++)
 			toggled[j][i] = 0;
 	selected_i = selected_j = shifted = location = 0;
-	active = 1;
+//	active = 1;
 	mod_state = 0;
 
 }

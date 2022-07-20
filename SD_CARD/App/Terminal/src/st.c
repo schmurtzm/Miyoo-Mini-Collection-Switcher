@@ -2958,6 +2958,9 @@ main(int argc, char *argv[]) {
                 if(++i < argc)
                     opt_title = argv[i];
                 break;
+            case 'q':
+                active = show_help = 0;
+                break;
             case 'v':
             default:
                 die(USAGE);

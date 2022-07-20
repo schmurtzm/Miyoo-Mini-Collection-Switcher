@@ -12,6 +12,6 @@ echo  "========================================="
 read -p "name : " NewCollecShortName
 
 # We modify the config.json from collection manager with the "CreatedCollection"
-sed -i "/\"CreatedCollection\":/c \"CreatedCollection\":\"${NewCollecShortName}\""  "$homedir/../../config.json"
+sed -i "/\"CreatedCollection\":/c \"CreatedCollection\":\"${NewCollecShortName}\","  "$homedir/../../config.json"
 
 

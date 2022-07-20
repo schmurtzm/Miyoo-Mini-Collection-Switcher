@@ -1,5 +1,16 @@
+{"label":"  Backup all Collections","launch":"/mnt/SDCARD/Emu/_COLLECTIONS/launch.sh","type":5,"rompath":"/mnt/SDCARD/Emu/_COLLECTIONS/COLLECTIONS/-Backup all Collections.json"}
 {"label":"  Create a new collection","launch":"/mnt/SDCARD/Emu/_COLLECTIONS/launch.sh","type":5,"rompath":"/mnt/SDCARD/Emu/_COLLECTIONS/COLLECTIONS/-Create New Collection.json"}
+{"label":"  Delete a collection.json","launch":"/mnt/SDCARD/Emu/_COLLECTIONS/launch.sh","type":5,"rompath":"/mnt/SDCARD/Emu/_COLLECTIONS/COLLECTIONS/-Delete Collection.json"}
 {"label":"  Sort collections list alphabetically","launch":"/mnt/SDCARD/Emu/_COLLECTIONS/launch.sh","type":5,"rompath":"/mnt/SDCARD/Emu/_COLLECTIONS/COLLECTIONS/-Sort current collection alphabetically.json"}
+{"label":"1stlove","launch":"/mnt/SDCARD/Emu/_COLLECTIONS/launch.sh","type":5,"rompath":"/mnt/SDCARD/Emu/_COLLECTIONS/./COLLECTIONS/1stlove.json"}
+{"label":"action","launch":"/mnt/SDCARD/Emu/_COLLECTIONS/launch.sh","type":5,"rompath":"/mnt/SDCARD/Emu/_COLLECTIONS/./COLLECTIONS/action.json"}
+{"label":"adventure","launch":"/mnt/SDCARD/Emu/_COLLECTIONS/launch.sh","type":5,"rompath":"/mnt/SDCARD/Emu/_COLLECTIONS/./COLLECTIONS/adventure.json"}
+{"label":"beat","launch":"/mnt/SDCARD/Emu/_COLLECTIONS/launch.sh","type":5,"rompath":"/mnt/SDCARD/Emu/_COLLECTIONS/./COLLECTIONS/beat.json"}
+{"label":"fps","launch":"/mnt/SDCARD/Emu/_COLLECTIONS/launch.sh","type":5,"rompath":"/mnt/SDCARD/Emu/_COLLECTIONS/./COLLECTIONS/fps.json"}
 {"label":"platform","launch":"/mnt/SDCARD/Emu/_COLLECTIONS/launch.sh","type":5,"rompath":"/mnt/SDCARD/Emu/_COLLECTIONS/./COLLECTIONS/platform.json"}
-{"label":"shoot","launch":"/mnt/SDCARD/Emu/_COLLECTIONS/launch.sh","type":5,"rompath":"/mnt/SDCARD/Emu/_COLLECTIONS/./COLLECTIONS/shoot.json"}
+{"label":"puzzle","launch":"/mnt/SDCARD/Emu/_COLLECTIONS/launch.sh","type":5,"rompath":"/mnt/SDCARD/Emu/_COLLECTIONS/./COLLECTIONS/puzzle.json"}
 {"label":"race","launch":"/mnt/SDCARD/Emu/_COLLECTIONS/launch.sh","type":5,"rompath":"/mnt/SDCARD/Emu/_COLLECTIONS/./COLLECTIONS/race.json"}
+{"label":"rpg","launch":"/mnt/SDCARD/Emu/_COLLECTIONS/launch.sh","type":5,"rompath":"/mnt/SDCARD/Emu/_COLLECTIONS/./COLLECTIONS/rpg.json"}
+{"label":"shoot","launch":"/mnt/SDCARD/Emu/_COLLECTIONS/launch.sh","type":5,"rompath":"/mnt/SDCARD/Emu/_COLLECTIONS/./COLLECTIONS/shoot.json"}
+{"label":"sport","launch":"/mnt/SDCARD/Emu/_COLLECTIONS/launch.sh","type":5,"rompath":"/mnt/SDCARD/Emu/_COLLECTIONS/./COLLECTIONS/sport.json"}
+{"label":"strategy","launch":"/mnt/SDCARD/Emu/_COLLECTIONS/launch.sh","type":5,"rompath":"/mnt/SDCARD/Emu/_COLLECTIONS/./COLLECTIONS/strategy.json"}
