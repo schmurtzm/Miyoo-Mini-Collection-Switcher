@@ -113,7 +113,7 @@ Coupled with [SearchFilter](https://github.com/OnionUI/SearchFilter) it becomes 
  - Copy the content of SD_CARD folder on the root of your SD card.
  - If you want to add your old favorites list, copy your favourite.json in SDCARD/Emu/_COLLECTIONS/COLLECTIONS/ , rename the file with a name that you like and then add it in favorite (when "==main==" collection is selected).
  
-## How to update (and keep all your current favorites lists)
+## How to update
  ----
  
  - Select the "main" collection before making a backup of your favorites.
