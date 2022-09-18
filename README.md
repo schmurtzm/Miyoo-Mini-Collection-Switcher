@@ -102,6 +102,8 @@ Coupled with [SearchFilter](https://github.com/OnionUI/SearchFilter) it becomes 
 /*    - A new version of Terminal app with possibility to run command line without                   */
 /*       keyboard displayed at start (-q option, thanks Eggs).                                       */
 /*    - Fixed lists that do not display completely right after being loaded                          */
+/*  v1.1 - 2022/09/18 :                                                                              */
+/*    - Now support Onion v4                                                                         */
 ```
 
 ## How to install

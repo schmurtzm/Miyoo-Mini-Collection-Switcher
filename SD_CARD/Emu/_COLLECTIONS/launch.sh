@@ -185,7 +185,7 @@ sed -i "/\"1\":/c \"1\": \"${CollecShortName}\"," "/mnt/SDCARD/miyoo/app/lang/$C
 echo "    We get the current theme from system.json."
 # e.g from system.json ->  "theme":        "/mnt/SDCARD/Themes/HippoStock/",
 
-CurrentTheme=$(grep '"theme":*' /appconfigs/system.json |sed 's/"\|,//g' | awk '{print $2}')
+CurrentTheme=$(grep '"theme":*' /appconfigs/system.json | cut -d \" -f4)
 # (grep select the line, sed remove quotes and comma, awk take the second part of the result)
 
 
