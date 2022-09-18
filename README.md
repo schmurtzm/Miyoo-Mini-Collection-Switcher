@@ -111,20 +111,23 @@ Coupled with [SearchFilter](https://github.com/OnionUI/SearchFilter) it becomes 
  
  - If you want to keep your actual Favorite list, start to backup it : 
    copy SDCARD/Roms/favourite.json on your computer 
- - Click on the "code" button above -> "Download ZIP".
- - Copy the content of SD_CARD folder on the root of your SD card.
- - If you want to add your old favorites list, copy your favourite.json in SDCARD/Emu/_COLLECTIONS/COLLECTIONS/ , rename the file with a name that you like and then add it in favorite (when "==main==" collection is selected).
- 
+ - [Download the last update](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fschmurtzm%2FMiyoo-Mini-Collection-Switcher%2Ftree%2Fmain%2FSD_CARD)
+ - Copy the content of the archive on the root of your SD card.
+ - If you want to keep your old favorites list as a sub collection : 
+	- Copy your previously backuped favourite.json file in SDCARD/Emu/_COLLECTIONS/COLLECTIONS/ .
+ 	- Rename the file with a name that you like as "My old list".
+	- Then to add it as sub collection, on the miyoo go to consoles -> collections add it in favorite (when "==main==" collection is selected).
+
+	
 ## How to update
  ----
  
  - Select the "main" collection before making a backup of your favorites.
- - Backup your current favorite list : copy the folder SD_CARD\Emu\_COLLECTIONS\COLLECTIONS on your computer 
- 
-   (it contains all the .json files which are your favorites lists)
-
- - Click on the "code" button above -> "Download ZIP".
- - Copy the content of SD_CARD folder on the root of your SD card (overwrite all the files)
+ - Backup your current collections : 
+	- Go to "main" collection and select "Backup all collections"
+	- Or copy the folder SD_CARD\Emu\_COLLECTIONS\COLLECTIONS on your computer (it contains all the .json files which are your favorites/collections lists)
+ - [Download the last update](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fschmurtzm%2FMiyoo-Mini-Collection-Switcher%2Ftree%2Fmain%2FSD_CARD)
+ - Copy the content of the archive on the root of your SD card.
  - Then restore your backup in SD_CARD\Emu\_COLLECTIONS\COLLECTIONS
 
 
@@ -154,7 +157,7 @@ Coupled with [SearchFilter](https://github.com/OnionUI/SearchFilter) it becomes 
   ----------------------------------------------
  Add your own collection directly from the Miyoo Mini (recommended) :
 
- in the main root menu of the collections, run "Create a new collection"
+ In the main root menu of the collections, run "Create a new collection"
  Then enter a name 11 characters seems to be the maximum to fit in the theme of the Miyoo Mini main menu (you can put more but it will be ugly in the main menu).
  
  ----------------------------------------------
